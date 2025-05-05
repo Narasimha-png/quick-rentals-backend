@@ -1,0 +1,39 @@
+04-May-2025 09:05:19 INFO - Starting QuickrentalsApplication using Java 24.0.1 with PID 5584 (C:\Users\Naras\OneDrive\Desktop\quickrentals\target\classes started by Naras in C:\Users\Naras\OneDrive\Desktop\quickrentals)
+04-May-2025 09:05:19 INFO - No active profile set, falling back to 1 default profile: "default"
+04-May-2025 09:05:19 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-May-2025 09:05:19 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-May-2025 09:05:21 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-May-2025 09:05:21 INFO - Finished Spring Data repository scanning in 124 ms. Found 3 JPA repository interfaces.
+04-May-2025 09:05:22 INFO - Tomcat initialized with port 8000 (http)
+04-May-2025 09:05:22 INFO - Initializing ProtocolHandler ["http-nio-8000"]
+04-May-2025 09:05:22 INFO - Starting service [Tomcat]
+04-May-2025 09:05:22 INFO - Starting Servlet engine: [Apache Tomcat/10.1.40]
+04-May-2025 09:05:22 INFO - Initializing Spring embedded WebApplicationContext
+04-May-2025 09:05:22 INFO - Root WebApplicationContext: initialization completed in 3033 ms
+04-May-2025 09:05:23 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-May-2025 09:05:23 INFO - HHH000412: Hibernate ORM core version 6.6.13.Final
+04-May-2025 09:05:23 INFO - HHH000026: Second-level cache disabled
+04-May-2025 09:05:23 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-May-2025 09:05:23 INFO - HikariPool-1 - Starting...
+04-May-2025 09:05:24 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@be6b559
+04-May-2025 09:05:24 INFO - HikariPool-1 - Start completed.
+04-May-2025 09:05:24 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-May-2025 09:05:26 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-May-2025 09:05:26 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-May-2025 09:05:27 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-May-2025 09:05:27 INFO - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+04-May-2025 09:05:28 INFO - LiveReload server is running on port 35729
+04-May-2025 09:05:28 INFO - Starting ProtocolHandler ["http-nio-8000"]
+04-May-2025 09:05:28 INFO - Tomcat started on port 8000 (http) with context path '/'
+04-May-2025 09:05:28 INFO - Started QuickrentalsApplication in 9.409 seconds (process running for 10.895)
+04-May-2025 09:05:28 ERROR - Too Late, All Bikes are already booked.
+04-May-2025 09:05:49 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-May-2025 09:05:49 INFO - Initializing Servlet 'dispatcherServlet'
+04-May-2025 09:05:49 INFO - Completed initialization in 2 ms
