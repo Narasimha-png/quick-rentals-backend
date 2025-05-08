@@ -3,6 +3,8 @@ package com.rentals.quickrentals.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,6 +25,8 @@ public class VehicleServiceImpl implements VehicleService{
 	@Autowired
 	private VehicleRepository vehicleRepository ;
 	private final ModelMapper modelMapper = new ModelMapper() ;
+	
+	private Logger LOGGER = LogManager.getLogger(VehicleServiceImpl.class) ;
 	
 	@Override
 	public VehicleDTO getVehicleDetails(String vehicleNo) throws VehicleException {
@@ -80,6 +84,8 @@ public class VehicleServiceImpl implements VehicleService{
 	@Override
 	public List<VehicleDTO> getAllAvailableVehicles() throws VehicleException {
 		List<Vehicle> vehicles = vehicleRepository.findByBookingStatusEquals(VehicleTypeAndStatus.AVAILABLE) ;
+		
+		LOGGER.error(vehicles) ;
 		
 		if (vehicles.isEmpty()) {
 	        throw new VehicleException("VehicleException.NO_VEHICLES_LEFT");

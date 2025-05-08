@@ -18,6 +18,6 @@ public interface QuickVehicleService {
 	public List<RentalHistoryDTO> viewDropOffDateAndTimeAfter(LocalDateTime startTime ) throws QuickRentalException;
 	public List<RentalHistoryDTO> viewPickUpDateAndTimeBetween(LocalDateTime startTime , LocalDateTime endTime) throws QuickRentalException;
 	public List<RentalHistoryDTO> viewDropOffDateAndTimeBetween(LocalDateTime startTime , LocalDateTime endTime) throws QuickRentalException;
-	public String bookMyBike(CustomerDTO customer , RentalHistoryDTO rental ) throws QuickRentalException ;
+	public String bookMyBike(Integer customerId , RentalHistoryDTO rental ) throws QuickRentalException ;
 	
 }

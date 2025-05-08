@@ -104,9 +104,9 @@ public class QuickVehicleServiceImpl implements QuickVehicleService{
 
 
 	@Override
-	public String bookMyBike(CustomerDTO customerDTO, RentalHistoryDTO rental) throws QuickRentalException {
+	public String bookMyBike(Integer customerId , RentalHistoryDTO rental) throws QuickRentalException {
 		
-		Optional<Customer> optional = customerRepository.findByDrivingLicenceNo(customerDTO.getDrivingLicenceNo()) ;
+		Optional<Customer> optional = customerRepository.findById(customerId) ;
 		
 		Customer customer = optional.orElseThrow(()-> new QuickRentalException("CustomerException.CUSTOMER_NOT_FOUND")) ;
 		

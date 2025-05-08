@@ -1,31 +1,46 @@
 DROP SCHEMA IF EXISTS QUICKRENTAL_DB;
-CREATE SCHEMA QUICKRENTAL_DB ;
-USE QUICKRENTAL_DB ;
+CREATE SCHEMA QUICKRENTAL_DB;
+USE QUICKRENTAL_DB;
 
 CREATE TABLE Vehicle(
-	vehicle_no VARCHAR(20) PRIMARY KEY , 
-	vehicle_name VARCHAR(255) ,
-	price INT , 
-	vehicle_type VARCHAR(20) , 
-	booking_status VARCHAR(20) 
-) ;
+	vehicle_no VARCHAR(20) PRIMARY KEY, 
+	vehicle_name VARCHAR(255),
+	price INT, 
+	vehicle_type VARCHAR(20), 
+	booking_status VARCHAR(20)
+);
 
 CREATE TABLE Customer(
-	customer_id INT AUTO_INCREMENT PRIMARY KEY , 
-	customer_name VARCHAR(255) , 
-	driving_licence_no VARCHAR(50)unique not null, 
+	customer_id INT AUTO_INCREMENT PRIMARY KEY, 
+	customer_name VARCHAR(255), 
+	driving_licence_no VARCHAR(50) UNIQUE NOT NULL, 
+	phone_number VARCHAR(10) NOT NULL, 
+	email VARCHAR(30) NOT NULL,
 	age INT
-) ;
+);
 
 CREATE TABLE rental_history(
-	id INT AUTO_INCREMENT PRIMARY KEY , 
-	customer_id INT , 
-	vehicle_no VARCHAR(20) ,
-	pick_up_date_time DATETIME ,
+	id INT AUTO_INCREMENT PRIMARY KEY, 
+	customer_id INT, 
+	vehicle_no VARCHAR(20),
+	pick_up_date_time DATETIME,
 	drop_off_date_time DATETIME,
-	FOREIGN KEY (customer_id) REFERENCES Customer(customer_id) ,
+	FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
 	FOREIGN KEY (vehicle_no) REFERENCES Vehicle(vehicle_no)
 );
 
 
-DESC rental_history;
+INSERT INTO Vehicle (vehicle_no, vehicle_name, price, vehicle_type, booking_status) VALUES
+('MH01AB1234', 'Honda City', 700, 'SCOOTER', 'AVAILABLE'),
+('MH01AB5678', 'Activa 6G', 500, 'EV', 'BOOKED'),
+('MH01XY9999', 'Bajaj Pulsar', 800, 'BIKE', 'AVAILABLE');
+
+
+INSERT INTO Customer (customer_name, driving_licence_no, phone_number, email, age) VALUES
+('Althaf Hussain', 'DL1234567890', '9876543210', 'althaf@example.com', 24),
+('Ravi Kumar', 'DL2345678901', '9123456789', 'ravi@example.com', 30);
+
+
+INSERT INTO rental_history (customer_id, vehicle_no, pick_up_date_time, drop_off_date_time) VALUES
+(1, 'MH01AB5678', '2025-05-01 10:00:00', '2025-05-02 18:00:00'),
+(2, 'MH01XY9999', '2025-05-03 08:30:00', '2025-05-03 20:00:00');

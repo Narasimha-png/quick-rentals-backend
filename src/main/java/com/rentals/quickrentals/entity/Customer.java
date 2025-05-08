@@ -18,6 +18,8 @@ public class Customer {
 	private Integer customerId ;
 	private String customerName ;
 	private String drivingLicenceNo ;
+	private String phoneNumber ;
+	private String email ;
 	private Integer age ;
 	
 	@OneToMany

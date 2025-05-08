@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,9 +22,10 @@ import com.rentals.quickrentals.service.CustomerServiceImpl;
 import com.rentals.quickrentals.service.QuickVehicleServiceImpl;
 import com.rentals.quickrentals.service.VehicleServiceImpl;
 
-
+@CrossOrigin
 @RestController
-@RequestMapping("quickrentals/api/v1")public class QuickRentalApi {
+@RequestMapping("api/v1")
+public class QuickRentalApi {
 	
 	@Autowired 
 	private VehicleServiceImpl vehicleService ;
@@ -45,8 +47,8 @@ import com.rentals.quickrentals.service.VehicleServiceImpl;
 	}
 	
 	@PostMapping("bookvehicle")
-	public ResponseEntity<String> bookVehicle(CustomerDTO customerDTO, RentalHistoryDTO rentalHistory ) throws QuickRentalException{
-		String vehicleNo = rentalService.bookMyBike(customerDTO, rentalHistory) ;
+	public ResponseEntity<String> bookVehicle(Integer customerId , RentalHistoryDTO rentalHistory ) throws QuickRentalException{
+		String vehicleNo = rentalService.bookMyBike(customerId, rentalHistory) ;
 		String successMessage = "Booking has done successfully.\n Bike Number " + vehicleNo ;
 		return new ResponseEntity<String>(successMessage , HttpStatus.OK) ;
 		

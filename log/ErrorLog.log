@@ -1,23 +1,23 @@
-04-May-2025 09:05:19 INFO - Starting QuickrentalsApplication using Java 24.0.1 with PID 5584 (C:\Users\Naras\OneDrive\Desktop\quickrentals\target\classes started by Naras in C:\Users\Naras\OneDrive\Desktop\quickrentals)
-04-May-2025 09:05:19 INFO - No active profile set, falling back to 1 default profile: "default"
-04-May-2025 09:05:19 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-04-May-2025 09:05:19 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-04-May-2025 09:05:21 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-04-May-2025 09:05:21 INFO - Finished Spring Data repository scanning in 124 ms. Found 3 JPA repository interfaces.
-04-May-2025 09:05:22 INFO - Tomcat initialized with port 8000 (http)
-04-May-2025 09:05:22 INFO - Initializing ProtocolHandler ["http-nio-8000"]
-04-May-2025 09:05:22 INFO - Starting service [Tomcat]
-04-May-2025 09:05:22 INFO - Starting Servlet engine: [Apache Tomcat/10.1.40]
-04-May-2025 09:05:22 INFO - Initializing Spring embedded WebApplicationContext
-04-May-2025 09:05:22 INFO - Root WebApplicationContext: initialization completed in 3033 ms
-04-May-2025 09:05:23 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
-04-May-2025 09:05:23 INFO - HHH000412: Hibernate ORM core version 6.6.13.Final
-04-May-2025 09:05:23 INFO - HHH000026: Second-level cache disabled
-04-May-2025 09:05:23 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
-04-May-2025 09:05:23 INFO - HikariPool-1 - Starting...
-04-May-2025 09:05:24 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@be6b559
-04-May-2025 09:05:24 INFO - HikariPool-1 - Start completed.
-04-May-2025 09:05:24 INFO - HHH10001005: Database info:
+07-May-2025 08:57:58 INFO - Starting QuickrentalsApplication using Java 24.0.1 with PID 15284 (C:\Users\Naras\OneDrive\Desktop\quickrentals\target\classes started by Naras in C:\Users\Naras\OneDrive\Desktop\quickrentals)
+07-May-2025 08:57:58 INFO - No active profile set, falling back to 1 default profile: "default"
+07-May-2025 08:57:58 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-May-2025 08:57:58 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-May-2025 08:57:59 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-May-2025 08:57:59 INFO - Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces.
+07-May-2025 08:58:00 INFO - Tomcat initialized with port 8080 (http)
+07-May-2025 08:58:00 INFO - Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2025 08:58:00 INFO - Starting service [Tomcat]
+07-May-2025 08:58:00 INFO - Starting Servlet engine: [Apache Tomcat/10.1.40]
+07-May-2025 08:58:00 INFO - Initializing Spring embedded WebApplicationContext
+07-May-2025 08:58:00 INFO - Root WebApplicationContext: initialization completed in 2690 ms
+07-May-2025 08:58:01 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-May-2025 08:58:01 INFO - HHH000412: Hibernate ORM core version 6.6.13.Final
+07-May-2025 08:58:01 INFO - HHH000026: Second-level cache disabled
+07-May-2025 08:58:01 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-May-2025 08:58:01 INFO - HikariPool-1 - Starting...
+07-May-2025 08:58:02 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@693ec30d
+07-May-2025 08:58:02 INFO - HikariPool-1 - Start completed.
+07-May-2025 08:58:02 INFO - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -25,15 +25,608 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-04-May-2025 09:05:26 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-04-May-2025 09:05:26 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
-04-May-2025 09:05:27 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04-May-2025 09:05:27 INFO - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-04-May-2025 09:05:28 INFO - LiveReload server is running on port 35729
-04-May-2025 09:05:28 INFO - Starting ProtocolHandler ["http-nio-8000"]
-04-May-2025 09:05:28 INFO - Tomcat started on port 8000 (http) with context path '/'
-04-May-2025 09:05:28 INFO - Started QuickrentalsApplication in 9.409 seconds (process running for 10.895)
-04-May-2025 09:05:28 ERROR - Too Late, All Bikes are already booked.
-04-May-2025 09:05:49 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
-04-May-2025 09:05:49 INFO - Initializing Servlet 'dispatcherServlet'
-04-May-2025 09:05:49 INFO - Completed initialization in 2 ms
+07-May-2025 08:58:04 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07-May-2025 08:58:04 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:42) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+07-May-2025 08:58:04 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:42) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+07-May-2025 08:58:04 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-May-2025 08:58:05 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-May-2025 08:58:06 INFO - LiveReload server is running on port 35729
+07-May-2025 08:58:06 INFO - Starting ProtocolHandler ["http-nio-8080"]
+07-May-2025 08:58:06 INFO - Tomcat started on port 8080 (http) with context path '/'
+07-May-2025 08:58:06 INFO - Started QuickrentalsApplication in 8.948 seconds (process running for 10.597)
+07-May-2025 08:58:06 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 08:58:06 INFO - [VehicleDTO(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), VehicleDTO(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 08:58:44 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-May-2025 08:58:44 INFO - Initializing Servlet 'dispatcherServlet'
+07-May-2025 08:58:44 INFO - Completed initialization in 1 ms
+07-May-2025 08:58:44 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 08:59:29 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:00:43 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:01:02 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:01:03 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:01:06 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:01:14 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:01:18 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:01:27 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:01:31 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:03:07 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 09:04:39 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:03:13 INFO - Starting QuickrentalsApplication using Java 24.0.1 with PID 18756 (C:\Users\Naras\OneDrive\Desktop\quickrentals\target\classes started by Naras in C:\Users\Naras\OneDrive\Desktop\quickrentals)
+07-May-2025 23:03:13 INFO - No active profile set, falling back to 1 default profile: "default"
+07-May-2025 23:03:13 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-May-2025 23:03:13 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-May-2025 23:03:16 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-May-2025 23:03:16 INFO - Finished Spring Data repository scanning in 318 ms. Found 3 JPA repository interfaces.
+07-May-2025 23:03:20 INFO - Tomcat initialized with port 8080 (http)
+07-May-2025 23:03:20 INFO - Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2025 23:03:20 INFO - Starting service [Tomcat]
+07-May-2025 23:03:20 INFO - Starting Servlet engine: [Apache Tomcat/10.1.40]
+07-May-2025 23:03:20 INFO - Initializing Spring embedded WebApplicationContext
+07-May-2025 23:03:20 INFO - Root WebApplicationContext: initialization completed in 6823 ms
+07-May-2025 23:03:21 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-May-2025 23:03:21 INFO - HHH000412: Hibernate ORM core version 6.6.13.Final
+07-May-2025 23:03:21 INFO - HHH000026: Second-level cache disabled
+07-May-2025 23:03:22 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+07-May-2025 23:03:22 INFO - HikariPool-1 - Starting...
+07-May-2025 23:03:24 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fb12cca
+07-May-2025 23:03:24 INFO - HikariPool-1 - Start completed.
+07-May-2025 23:03:24 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+07-May-2025 23:03:28 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07-May-2025 23:03:29 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:42) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+07-May-2025 23:03:29 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:42) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+07-May-2025 23:03:29 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-May-2025 23:03:31 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-May-2025 23:03:32 INFO - LiveReload server is running on port 35729
+07-May-2025 23:03:32 INFO - Starting ProtocolHandler ["http-nio-8080"]
+07-May-2025 23:03:32 INFO - Tomcat started on port 8080 (http) with context path '/'
+07-May-2025 23:03:32 INFO - Started QuickrentalsApplication in 20.139 seconds (process running for 23.428)
+07-May-2025 23:03:33 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:03:33 INFO - [VehicleDTO(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), VehicleDTO(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:09:31 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-May-2025 23:09:31 INFO - Initializing Servlet 'dispatcherServlet'
+07-May-2025 23:09:31 INFO - Completed initialization in 4 ms
+07-May-2025 23:09:31 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:13:04 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:14:26 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:14:46 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:15:00 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:15:07 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:15:18 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:15:21 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:15:45 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:15:49 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:16:00 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:16:23 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:16:40 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:16:46 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:17:05 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:17:14 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:17:29 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:17:31 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:18:21 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:18:46 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:18:55 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:19:06 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:19:25 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:19:30 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:19:34 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+07-May-2025 23:20:28 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 07:57:23 INFO - Starting QuickrentalsApplication using Java 24.0.1 with PID 14624 (C:\Users\Naras\OneDrive\Desktop\quickrentals\target\classes started by Naras in C:\Users\Naras\OneDrive\Desktop\quickrentals)
+08-May-2025 07:57:23 INFO - No active profile set, falling back to 1 default profile: "default"
+08-May-2025 07:57:23 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08-May-2025 07:57:23 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08-May-2025 07:57:26 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-May-2025 07:57:26 INFO - Finished Spring Data repository scanning in 270 ms. Found 3 JPA repository interfaces.
+08-May-2025 07:57:29 INFO - Tomcat initialized with port 8080 (http)
+08-May-2025 07:57:29 INFO - Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2025 07:57:29 INFO - Starting service [Tomcat]
+08-May-2025 07:57:29 INFO - Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 07:57:29 INFO - Initializing Spring embedded WebApplicationContext
+08-May-2025 07:57:29 INFO - Root WebApplicationContext: initialization completed in 5434 ms
+08-May-2025 07:57:29 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-May-2025 07:57:30 INFO - HHH000412: Hibernate ORM core version 6.6.13.Final
+08-May-2025 07:57:30 INFO - HHH000026: Second-level cache disabled
+08-May-2025 07:57:30 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+08-May-2025 07:57:31 INFO - HikariPool-1 - Starting...
+08-May-2025 07:57:33 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@731a1f06
+08-May-2025 07:57:33 INFO - HikariPool-1 - Start completed.
+08-May-2025 07:57:34 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+08-May-2025 07:57:39 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+08-May-2025 07:57:39 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:42) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+08-May-2025 07:57:39 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:42) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+08-May-2025 07:57:40 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-May-2025 07:57:42 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-May-2025 07:57:43 INFO - LiveReload server is running on port 35729
+08-May-2025 07:57:43 INFO - Starting ProtocolHandler ["http-nio-8080"]
+08-May-2025 07:57:43 INFO - Tomcat started on port 8080 (http) with context path '/'
+08-May-2025 07:57:43 INFO - Started QuickrentalsApplication in 21.395 seconds (process running for 26.643)
+08-May-2025 07:57:44 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 07:57:44 INFO - [VehicleDTO(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), VehicleDTO(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 08:01:34 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-May-2025 08:01:34 INFO - Initializing Servlet 'dispatcherServlet'
+08-May-2025 08:01:34 INFO - Completed initialization in 2 ms
+08-May-2025 08:01:34 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:48:29 INFO - Starting QuickrentalsApplication using Java 24.0.1 with PID 14436 (C:\Users\Naras\OneDrive\Desktop\quickrentals\target\classes started by Naras in C:\Users\Naras\OneDrive\Desktop\quickrentals)
+08-May-2025 20:48:29 INFO - No active profile set, falling back to 1 default profile: "default"
+08-May-2025 20:48:29 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08-May-2025 20:48:29 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08-May-2025 20:48:30 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-May-2025 20:48:30 INFO - Finished Spring Data repository scanning in 125 ms. Found 3 JPA repository interfaces.
+08-May-2025 20:48:31 INFO - Tomcat initialized with port 8080 (http)
+08-May-2025 20:48:31 INFO - Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2025 20:48:31 INFO - Starting service [Tomcat]
+08-May-2025 20:48:31 INFO - Starting Servlet engine: [Apache Tomcat/10.1.40]
+08-May-2025 20:48:32 INFO - Initializing Spring embedded WebApplicationContext
+08-May-2025 20:48:32 INFO - Root WebApplicationContext: initialization completed in 2662 ms
+08-May-2025 20:48:32 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-May-2025 20:48:32 INFO - HHH000412: Hibernate ORM core version 6.6.13.Final
+08-May-2025 20:48:32 INFO - HHH000026: Second-level cache disabled
+08-May-2025 20:48:33 INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+08-May-2025 20:48:33 INFO - HikariPool-1 - Starting...
+08-May-2025 20:48:33 INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@558a7aa1
+08-May-2025 20:48:33 INFO - HikariPool-1 - Start completed.
+08-May-2025 20:48:33 INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+08-May-2025 20:48:35 INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+08-May-2025 20:48:35 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table rental_history modify column vehicle_no varchar(255)" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:18) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+08-May-2025 20:48:35 WARN - GenerationTarget encountered exception accepting command : Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table vehicle modify column vehicle_no varchar(255) not null" via JDBC [Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history']
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) [?:?]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) [hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) [spring-orm-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) [spring-beans-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) [spring-context-6.2.6.jar:6.2.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) [spring-boot-3.4.5.jar:3.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) [spring-boot-3.4.5.jar:3.4.5]
+	at com.rentals.quickrentals.QuickrentalsApplication.main(QuickrentalsApplication.java:18) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.4.5.jar:3.4.5]
+Caused by: java.sql.SQLException: Cannot change column 'vehicle_no': used in a foreign key constraint 'rental_history_ibfk_2' of table 'quickrental_db.rental_history'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.13.Final.jar:6.6.13.Final]
+	... 40 more
+08-May-2025 20:48:35 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-May-2025 20:48:36 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-May-2025 20:48:37 INFO - LiveReload server is running on port 35729
+08-May-2025 20:48:37 INFO - Starting ProtocolHandler ["http-nio-8080"]
+08-May-2025 20:48:37 INFO - Tomcat started on port 8080 (http) with context path '/'
+08-May-2025 20:48:37 INFO - Started QuickrentalsApplication in 8.443 seconds (process running for 9.821)
+08-May-2025 20:50:07 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-May-2025 20:50:07 INFO - Initializing Servlet 'dispatcherServlet'
+08-May-2025 20:50:07 INFO - Completed initialization in 4 ms
+08-May-2025 20:50:08 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:51:04 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:51:06 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:51:08 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:51:10 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:54:05 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:54:44 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:54:48 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:54:59 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:58:28 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:58:44 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 20:58:58 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:00:48 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:02:34 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:12:39 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:13:44 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:15:08 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:16:46 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:16:49 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:19:07 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:20:42 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:21:00 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
+08-May-2025 21:21:34 ERROR - [Vehicle(vehicleNo=MH01AB1234, vehicleName=Honda City, price=700, bookingStatus=AVAILABLE, vehicleType=SCOOTER), Vehicle(vehicleNo=MH01XY9999, vehicleName=Bajaj Pulsar, price=800, bookingStatus=AVAILABLE, vehicleType=BIKE)]
